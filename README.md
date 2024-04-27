@@ -3,7 +3,7 @@
 This repository contains the source code and accompanying materials for the book "Demystifying Large Language Models" by James Chen. The book is a comprehensive guide to understanding Large Language Models (LLMs), their underlying architectures, pre-training and fine-tuning techniques, and various applications.
 
 <picture>
-  <img alt="Demystifying Large Language Models Book Cover" src="https://github.com/jchen8000/DemystifyingLLMs/blob/main/images/bookcover.jpg" width="164" height="232">
+  <img alt="Demystifying Large Language Models" src="https://github.com/jchen8000/DemystifyingLLMs/blob/main/images/bookcover.jpg" width="164" height="232">
 </picture>
 
 **Title: Demystifying Large Language Models**
@@ -12,11 +12,11 @@ This repository contains the source code and accompanying materials for the book
 
 Available at:
 
-978-1-7389084-6-2 (eBook), [Amazon Kindle](https://www.amazon.com/dp/B0CZV7ZF2J), [Apple Books](https://books.apple.com/us/book/demystifying-large-language-models/id6499347202),  [Google Play Books](https://play.google.com/store/books/details?id=DUIEEQAAQBAJ)
+ISBN: 978-1-7389084-6-2 (eBook), [Amazon Kindle](https://www.amazon.com/dp/B0CZV7ZF2J), [Apple Books](https://books.apple.com/us/book/demystifying-large-language-models/id6499347202),  [Google Play Books](https://play.google.com/store/books/details?id=DUIEEQAAQBAJ)
 
-978-1-7389084-8-6 ([Paperback](https://www.amazon.com/dp/1738908488))
+ISBN: 978-1-7389084-8-6 ([Paperback](https://www.amazon.com/dp/1738908488))
 
-978-1-7389084-7-9 ([Hardcover](https://www.amazon.com/dp/173890847X))
+ISBN: 978-1-7389084-7-9 ([Hardcover](https://www.amazon.com/dp/173890847X))
 
 Author: James Chen (LinkedIn: [linkedin.com/in/jchen8000](https://www.linkedin.com/in/jchen8000/))
 
