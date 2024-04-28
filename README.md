@@ -3,7 +3,7 @@
 This repository contains the source code and accompanying materials for the book "Demystifying Large Language Models" by James Chen. The book is a comprehensive guide to understanding Large Language Models (LLMs), their underlying architectures, pre-training and fine-tuning techniques, and various applications.
 
 <picture>
-  <img alt="Demystifying Large Language Models" src="https://github.com/jchen8000/DemystifyingLLMs/blob/main/images/bookcover.jpg" width="164" height="232">
+  <img alt="Demystifying Large Language Models" src="https://github.com/jchen8000/DemystifyingLLMs/blob/main/images/bookcover.jpg" width="141" height="198">
 </picture>
 
 **Title: Demystifying Large Language Models**
