@@ -1,0 +1,44 @@
+# Core scientific stack
+numpy==2.0.2
+pandas==2.2.2
+matplotlib==3.10.0
+scikit-learn==1.6.1
+
+# PyTorch ecosystem (torch already provided by base image)
+torchdata==0.11.0
+torchvision==0.24.0
+torchaudio==2.9.0
+
+# Hugging Face / NLP
+transformers==4.57.6
+datasets==4.0.0
+sentencepiece==0.2.1
+accelerate==1.12.0
+peft==0.18.1
+rouge_score==0.1.2
+huggingface_hub==0.36.0
+
+# NLP utilities
+spacy==3.8.11
+nltk==3.9.1
+portalocker==3.2.0
+
+# LangChain ecosystem
+langchain==1.2.3
+langchain-core==1.2.6
+langchain-community==0.4.1
+langchain-huggingface==1.2.0
+langchain-chroma==1.1.0
+langchain_groq==1.1.1
+groq==0.37.1
+
+# Vector search / docs
+faiss-cpu==1.13.2
+pypdf==6.6.0
+
+# LLM APIs
+openai==2.14.0
+
+# Jupyter
+jupyterlab
+notebook
