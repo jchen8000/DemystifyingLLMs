@@ -38,6 +38,11 @@ Open the desired code file in Google Colab or your preferred Jupyter environment
 
 Refer to the book for guidance on using the code examples.
 
+## Docker
+```
+docker pull jchen8000/pytorch_gpu_jupyterlab:latest
+```
+
 ## License
 
 The contents of this repository are licensed under the MIT License. See the LICENSE file for more details.
