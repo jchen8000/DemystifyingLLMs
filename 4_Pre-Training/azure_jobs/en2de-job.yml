@@ -1,0 +1,21 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+
+name: en2de-train
+display_name: EN→DE training job
+experiment_name: exp-en2de
+type: command
+
+code: .
+command: >
+  python en2de_translation_job.py
+  --epochs 200
+  --batch-size 256
+  --lr 1e-3
+
+# Use curated environment from the public registry
+environment: azureml://registries/azureml/environments/acpt-pytorch-2.2-cuda12.1/versions/47
+
+compute: azureml:aml-gpu-cluster
+
+limits:
+  timeout: 86400
