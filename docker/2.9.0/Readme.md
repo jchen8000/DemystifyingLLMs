@@ -3,7 +3,7 @@
 
 This guide explains how to build a Docker image and push it to Docker Hub.   
 
-This Docker image is designed to run the Jupyter notebooks with **PyTorch 2.10.0**, **CUDA 12.8**, and all dependencies for this project. 
+This Docker image is designed to run the Jupyter notebooks with **PyTorch 2.9.0**, **CUDA 12.8**, and all dependencies for this project. 
 It supports **GPU acceleration if available**, and falls back to CPU otherwise.
 
 A pre-build and ready-to-use docker image for this project is available at:
@@ -13,7 +13,7 @@ docker pull jchen8000/pytorch_gpu_jupyterlab:latest
 
 ## Features
 
-- PyTorch 2.10.0 with CUDA 12.8 + cuDNN 9
+- PyTorch 2.9.0 with CUDA 12.8 + cuDNN 9
 - Hugging Face Transformers, Datasets, Accelerate, PEFT
 - NLP utilities: NLTK, spaCy, sentencepiece
 - LangChain ecosystem support
@@ -74,13 +74,13 @@ pip list
 
 ## ✅ 6. Tag as latest (Optional)
 ```
-docker tag dockerhub-username/pytorch_gpu_jupyterlab:2.10.0 \
+docker tag dockerhub-username/pytorch_gpu_jupyterlab:2.9.0 \
            dockerhub-username/pytorch_gpu_jupyterlab:latest
 ```
 
 ## ✅ 7. Push to Docker Hub (Optional)
 ```
-docker push dockerhub-username/pytorch_gpu_jupyterlab:2.10.0
+docker push dockerhub-username/pytorch_gpu_jupyterlab:2.9.0
 docker push dockerhub-username/pytorch_gpu_jupyterlab:latest
 ```
 
