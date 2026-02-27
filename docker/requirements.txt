@@ -4,6 +4,11 @@ pandas==2.2.2
 matplotlib==3.10.0
 scikit-learn==1.6.1
 
+# PyTorch ecosystem (torch already provided by base image)
+torchdata==0.11.0
+torchvision==0.25.0
+torchaudio==2.10.0
+
 # Hugging Face / NLP
 transformers==4.57.6
 datasets==4.0.0

@@ -16,7 +16,16 @@ RUN apt-get update && apt-get install -y \
 # Copy requirements file
 COPY requirements.txt .
 
-# Upgrade pip and install Python dependencies
+# Install venv support
+RUN apt-get update && apt-get install -y python3-venv && rm -rf /var/lib/apt/lists/*
+
+# Create virtual environment
+RUN python3 -m venv /opt/venv
+
+# Activate venv
+ENV PATH="/opt/venv/bin:$PATH"
+
+# Upgrade pip and install deps
 RUN pip install --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
