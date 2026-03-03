@@ -42,3 +42,5 @@ openai==2.14.0
 # Jupyter
 jupyterlab
 notebook
+ipywidgets
+

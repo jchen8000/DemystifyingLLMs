@@ -115,7 +115,9 @@ GROQ_API_KEY=groq_api_key
 CPU-only machine
 ```
 docker run -it --rm -p 8888:8888 \
-  --env-file .env \
+  --memory="8g" \
+  --memory-swap="8g" \
+  --env-file ./docker/.env \
   -v $(pwd):/workspace \
   dockerhub-username/pytorch_gpu_jupyterlab:latest
 ```
@@ -123,7 +125,9 @@ docker run -it --rm -p 8888:8888 \
 GPU machine
 ```
 docker run -it --rm --gpus all -p 8888:8888 \
-  --env-file .env \
+  --memory="8g" \
+  --memory-swap="8g" \
+  --env-file ./docker/.env \
   -v $(pwd):/workspace \
   dockerhub-username/pytorch_gpu_jupyterlab:latest
 ```
