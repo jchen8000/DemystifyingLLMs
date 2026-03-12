@@ -6,17 +6,17 @@ This repository contains the source code and accompanying materials for the book
   <img alt="Demystifying Large Language Models" src="https://github.com/jchen8000/DemystifyingLLMs/blob/main/images/bookcover.jpg" width="188" height="263">
 </picture>
 
-**Title: Demystifying Large Language Models**
+## Title: Demystifying Large Language Models
 
-**Subtitle: Unraveling the Mysteries of Language Transformer Models, Build from Ground up, Pre-train, Fine-tune and Deployment**
+### Subtitle: Unraveling the Mysteries of Language Transformer Models, Build from Ground up, Pre-train, Fine-tune and Deployment
 
-Available at:
+**Available at:**
 
-ISBN: 978-1-7389084-6-2 (eBook), [Amazon Kindle](https://www.amazon.com/dp/B0CZV7ZF2J), [Apple Books](https://books.apple.com/us/book/demystifying-large-language-models/id6499347202),  [Google Play Books](https://play.google.com/store/books/details?id=DUIEEQAAQBAJ)
+ISBN: 978-1-7389084-6-2 (eBook): [Amazon Kindle](https://www.amazon.com/dp/B0CZV7ZF2J), [Apple Books](https://books.apple.com/us/book/demystifying-large-language-models/id6499347202),  [Google Play Books](https://play.google.com/store/books/details?id=DUIEEQAAQBAJ)
 
-ISBN: 978-1-7389084-8-6 ([Paperback](https://www.amazon.com/dp/1738908488))
+ISBN: 978-1-7389084-8-6 (Paperback): [Amazon](https://www.amazon.com/dp/1738908488), [Barnes & Noble](https://www.barnesandnoble.com/w/demystifying-large-language-models-james-chen/1145527745?ean=9781738908486)
 
-ISBN: 978-1-7389084-7-9 ([Hardcover](https://www.amazon.com/dp/173890847X))
+ISBN: 978-1-7389084-7-90 (Hardcover): [Amazon](https://www.amazon.com/dp/173890847X), [Barnes & Noble](https://www.barnesandnoble.com/w/demystifying-large-language-models-james-chen/1145527745?ean=9781738908479)
 
 Author: James Chen (LinkedIn: [linkedin.com/in/jchen8000](https://www.linkedin.com/in/jchen8000/))
 
